@@ -1,0 +1,30 @@
+{
+    "name" : "velygotsky/basebundle",
+    "description" : "Symfony Bundle which contains common functionality for many projects.",
+    "type" : "symfony-bundle",
+    "authors" : [{
+        "name" : "Yaroslav Velygotsky",
+        "email" : "yaroslav@velygotsky.com"
+    }],
+    "keywords" : [
+        "base bundle"
+    ],
+    "license" : [
+        "MIT"
+    ],
+    "require" : {
+    },
+    "autoload" : {
+        "psr-0" : {
+            "Velygotsky\\BaseBundle" : ""
+        }
+    },
+    "target-dir" : "Velygotsky/BaseBundle",
+    "repositories" : [{
+    }],
+    "extra" : {
+        "branch-alias" : {
+            "dev-master" : "1.0"
+        }
+    }
+}
