@@ -12,7 +12,14 @@ use Symfony\Component\DependencyInjection\ContainerInterface;
  */
 abstract class BaseService
 {
+    /**
+     * @var EntityManager
+     */
     protected $em;
+
+    /**
+     * @var ContainerInterface
+     */
     protected $container;
 
     /**
